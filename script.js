@@ -1,7 +1,7 @@
 // 1. click on cat makes op.png show up, then disappear after click
 // 2. on click, pop sound plays
 // 3. pop count increases every click
-const popSound = new Audio("pop2.mp3");
+const popSound = new Audio("./pop2.mp3");
 const fullWidth = window.innerWidth;
 const fullHeight = window.innerHeight;
 const popTextColor = ["#F6A5F2", "#A8DAFF", "#FFCFB5", "#CCC8FF"];
